@@ -2,7 +2,7 @@
 # 1. Removing duplicate data.
 # 2. Standerdizing the data to usable format.
 # 3. Replacing Null/Blank values if necessary.
-# 4. Removing any collumn if not needed.
+# 4. Removing any rows/column if not needed.
 
 CREATE DATABASE layoffs ;
 
@@ -145,6 +145,10 @@ MODIFY COLUMN percentage_laid_off INT;
 
 DELETE FROM layoffs2 
 WHERE total_laid_off IS NULL ;
+
+# Removing row_num column
+ALTER TABLE layoffs2 
+DROP COLUMN row_num ;
 
 
 
