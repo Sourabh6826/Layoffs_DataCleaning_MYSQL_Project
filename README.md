@@ -6,4 +6,4 @@ Doing Data Cleaning in MySQL by following below steps.
  1. Removing duplicate data.
  2. Standerdizing the data to usable format.
  3. Replacing Null/Blank values if necessary.
- 4. Removing any rows/collumn if not needed.
+ 4. Removing any rows/column if not needed.
